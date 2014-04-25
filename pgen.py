@@ -11,7 +11,6 @@ import	subprocess
 passLen = 10
 try:
 	if len(sys.argv) > 0:
-		print(sys.argv[1])
 		passLen = int(sys.argv[1])
 except: passLen = 10
 
